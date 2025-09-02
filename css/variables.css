@@ -1,0 +1,203 @@
+:root {
+    /* Color System */
+    /* Primary Colors */
+    --primary-50: #e6f0ff;
+    --primary-100: #cce0ff;
+    --primary-200: #99c2ff;
+    --primary-300: #66a3ff;
+    --primary-400: #3385ff;
+    --primary-500: #0077ff;
+    --primary-600: #0066cc;
+    --primary-700: #004d99;
+    --primary-800: #003366;
+    --primary-900: #001a33;
+    
+    /* Secondary Colors */
+    --secondary-50: #e6fff9;
+    --secondary-100: #ccfff4;
+    --secondary-200: #99ffe9;
+    --secondary-300: #66ffde;
+    --secondary-400: #33ffd3;
+    --secondary-500: #00c9a7;
+    --secondary-600: #00a185;
+    --secondary-700: #007864;
+    --secondary-800: #005042;
+    --secondary-900: #002821;
+    
+    /* Accent Colors */
+    --accent-50: #fff8e6;
+    --accent-100: #fff1cc;
+    --accent-200: #ffe499;
+    --accent-300: #ffd666;
+    --accent-400: #ffc933;
+    --accent-500: #ffb400;
+    --accent-600: #cc9000;
+    --accent-700: #996c00;
+    --accent-800: #664800;
+    --accent-900: #332400;
+    
+    /* Success Colors */
+    --success-50: #e6ffe6;
+    --success-100: #ccffcc;
+    --success-200: #99ff99;
+    --success-300: #66ff66;
+    --success-400: #33ff33;
+    --success-500: #00cc00;
+    --success-600: #00a300;
+    --success-700: #007a00;
+    --success-800: #005200;
+    --success-900: #002900;
+    
+    /* Warning Colors */
+    --warning-50: #fff9e6;
+    --warning-100: #fff2cc;
+    --warning-200: #ffe699;
+    --warning-300: #ffd966;
+    --warning-400: #ffcc33;
+    --warning-500: #ffbf00;
+    --warning-600: #cc9900;
+    --warning-700: #997300;
+    --warning-800: #664d00;
+    --warning-900: #332600;
+    
+    /* Error Colors */
+    --error-50: #ffe6e6;
+    --error-100: #ffcccc;
+    --error-200: #ff9999;
+    --error-300: #ff6666;
+    --error-400: #ff3333;
+    --error-500: #ff0000;
+    --error-600: #cc0000;
+    --error-700: #990000;
+    --error-800: #660000;
+    --error-900: #330000;
+    
+    /* Neutral Colors */
+    --neutral-50: #f8f9fa;
+    --neutral-100: #eaedf0;
+    --neutral-200: #d5dbe1;
+    --neutral-300: #b0bac2;
+    --neutral-400: #8b98a4;
+    --neutral-500: #677785;
+    --neutral-600: #4d5a66;
+    --neutral-700: #343e47;
+    --neutral-800: #1a2129;
+    --neutral-900: #0d1014;
+    
+    /* Spacing System (8px) */
+    --space-1: 0.5rem;    /* 8px */
+    --space-2: 1rem;      /* 16px */
+    --space-3: 1.5rem;    /* 24px */
+    --space-4: 2rem;      /* 32px */
+    --space-5: 2.5rem;    /* 40px */
+    --space-6: 3rem;      /* 48px */
+    --space-7: 3.5rem;    /* 56px */
+    --space-8: 4rem;      /* 64px */
+    --space-9: 4.5rem;    /* 72px */
+    --space-10: 5rem;     /* 80px */
+    
+    /* Typography */
+    --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --font-size-xs: 0.75rem;   /* 12px */
+    --font-size-sm: 0.875rem;  /* 14px */
+    --font-size-md: 1rem;      /* 16px */
+    --font-size-lg: 1.125rem;  /* 18px */
+    --font-size-xl: 1.25rem;   /* 20px */
+    --font-size-2xl: 1.5rem;   /* 24px */
+    --font-size-3xl: 1.875rem; /* 30px */
+    --font-size-4xl: 2.25rem;  /* 36px */
+    --font-size-5xl: 3rem;     /* 48px */
+    --font-size-6xl: 3.75rem;  /* 60px */
+    
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+    
+    --line-height-tight: 1.2;      /* Headings */
+    --line-height-normal: 1.5;     /* Body text */
+    --line-height-relaxed: 1.75;   /* Large blocks of text */
+    
+    /* Border Radius */
+    --radius-sm: 0.25rem;  /* 4px */
+    --radius-md: 0.5rem;   /* 8px */
+    --radius-lg: 1rem;     /* 16px */
+    --radius-full: 9999px; /* For pills and circles */
+    
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    
+    /* Transitions */
+    --transition-fast: 150ms;
+    --transition-normal: 300ms;
+    --transition-slow: 500ms;
+    
+    /* Z-index */
+    --z-index-dropdown: 1000;
+    --z-index-sticky: 1020;
+    --z-index-fixed: 1030;
+    --z-index-modal-backdrop: 1040;
+    --z-index-modal: 1050;
+    --z-index-popover: 1060;
+    --z-index-tooltip: 1070;
+    
+    /* Container Max Widths */
+    --container-sm: 640px;
+    --container-md: 768px;
+    --container-lg: 1024px;
+    --container-xl: 1280px;
+  }
+  
+  /* Dark Mode Variables */
+  .dark-mode {
+    --primary-50: #001a33;
+    --primary-100: #003366;
+    --primary-200: #004d99;
+    --primary-300: #0066cc;
+    --primary-400: #0077ff;
+    --primary-500: #3385ff;
+    --primary-600: #66a3ff;
+    --primary-700: #99c2ff;
+    --primary-800: #cce0ff;
+    --primary-900: #e6f0ff;
+    
+    --secondary-50: #002821;
+    --secondary-100: #005042;
+    --secondary-200: #007864;
+    --secondary-300: #00a185;
+    --secondary-400: #00c9a7;
+    --secondary-500: #33ffd3;
+    --secondary-600: #66ffde;
+    --secondary-700: #99ffe9;
+    --secondary-800: #ccfff4;
+    --secondary-900: #e6fff9;
+    
+    --accent-50: #332400;
+    --accent-100: #664800;
+    --accent-200: #996c00;
+    --accent-300: #cc9000;
+    --accent-400: #ffb400;
+    --accent-500: #ffc933;
+    --accent-600: #ffd666;
+    --accent-700: #ffe499;
+    --accent-800: #fff1cc;
+    --accent-900: #fff8e6;
+    
+    --neutral-50: #0d1014;
+    --neutral-100: #1a2129;
+    --neutral-200: #343e47;
+    --neutral-300: #4d5a66;
+    --neutral-400: #677785;
+    --neutral-500: #8b98a4;
+    --neutral-600: #b0bac2;
+    --neutral-700: #d5dbe1;
+    --neutral-800: #eaedf0;
+    --neutral-900: #f8f9fa;
+    
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+  }

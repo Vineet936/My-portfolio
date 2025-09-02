@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Portfolio</title>
+  <link rel="stylesheet" href="/css/animations.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/layout.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/responsive.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/typography.css">
+  <link rel="stylesheet" href="/css/utilities.css">
+  <link rel="stylesheet" href="/css/variables.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="theme-toggle">
+    <button id="theme-toggle-btn" aria-label="Toggle dark mode">
+      <i class="fas fa-moon"></i>
+      <i class="fas fa-sun"></i>
+    </button>
+  </div>
+  <header class="header">
+    <div class="container">
+      <div class="logo">VS</div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="mobile-menu-btn" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="home" class="hero">              
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            <span class="greeting" style="color: white;">Hello, I'm</span>
+         <span class="name" style="color: white;">Vineet Saini</span>
+            <span class="profession" style="color: white    ;">Software Developer</span>
+          </h1>
+          <p class="hero-description" style="color: white;">I build exceptional digital experiences that live at the intersection of design and technology.</p>
+          <div class="cta-buttons">
+  <div class="cta-buttons">
+    <div class="cta-buttons">
+ <div class="cta-buttons">
+<a href="VineetKumar.pdf" download="Vineet-Kumar-Resume.pdf" class="download-btn">
+    <i class="fa-solid fa-download"></i> Download Resume
+</a>
+</div>
+</div>
+</div>
+</div>
+        </div>
+        <div class="hero-image">
+          <div class="image-container">
+            <img src="/img/bg/IMG-20241107-WA0036.jpg" alt="John Doe">
+          </div>
+          <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <a href="#about">
+          <span class="mouse">
+            <span class="wheel"></span>
+          </span>
+          <span class="scroll-text">Scroll Down</span>
+        </a>
+      </div>
+    </section>
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" style="color: white;">About Me</h2>
+          <p class="section-subtitle">My background and journey</p>
+        </div>
+        <div class="about-content">
+          <div class="about-image">
+            <img src="/img/bg/1732289961230.jpg" alt="About Me">
+          </div>
+          <div class="about-text">
+            <p style="color: white ; font-size: 2rem;">Vineet Saini</P>
+            <p style="color: white;">Hey there, welcome to my portfolio! I am a ITI student specializing in Computer Operator and Programming Assistant. I am passionate about Software Development and have gained solid experience building projects that you can explore through my site. Along the way, I have picked up frameworks and continuously challenge myself to be better than I was yesterday. Dive into see what I have been working on, and feel free to reach out if you'd like to collaborate or chat!</p>
+           
+            <div class="personal-info">
+              <div class="info-item">
+                <span class="info-label">Name:</span>
+                <span class="info-value">Vineet Saini</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Email:</span>
+                <span class="info-value">vineetkumar72485@gmail.com</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Location:</span>
+                <span class="info-value">Bijnor</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Availability:</span>
+                <span class="info-value">Available for freelance</span>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">My Skills</h2>
+          <p class="section-subtitle">What I bring to the table</p>
+        </div>
+        <div class="skills-content">
+          <div class="skills-category">
+            <h3 class="category-title">Software Developer</h3>
+            <div class="skills-grid">
+              <div class="skill-item" data-skill="HTML">
+                <div class="skill-icon"><i class="fab fa-html5"></i></i></div>
+                <h4 class="skill-name">HTML</h4>
+                <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
+              </div>
+              <div class="skill-item" data-skill="CSS3">
+                <div class="skill-icon"><i class="fab fa-css3-alt"></i>
+</div>
+                <h4 class="skill-name">CSS</h4>
+                <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+              </div>
+              <div class="skill-item" data-skill="JavaScript">
+                <div class="skill-icon"><i class="fab fa-js"></i></div>
+                <h4 class="skill-name">JavaScript</h4>
+                <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+              </div>
+              <div class="skill-item" data-skill="React">
+                <div class="skill-icon"><i class="fa-solid fa-database"></i></i></div>
+                <h4 class="skill-name">Sql</h4>
+                <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+              </div>
+               <div class="skill-item" data-skill="React">
+                <div class="skill-icon"><span class="fa-layers fa-fw" style="font-size:48px;">
+                <span class="fa-layers-text" style="color: font-weight:700; font-family:Arial, sans-serif;">C#</span>
+                </span></div>
+                <h4 class="skill-name">C#</h4>
+                <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+              </div>
+
+             <div class="skill-item" data-skill="React">
+                <div class="skill-icon"><span class="fa-layers fa-fw" style="font-size:48px;">
+                <span class="fa-layers-text" style="color: font-weight:700; font-family:Arial, sans-serif;">.Net</span>
+                </span></div>
+                <h4 class="skill-name">.Net</h4>
+                <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+              </div>
+
+            </div>
+          </div>
+</section>
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="section-header">
+        <h2 class="section-title" style="color: #fff;">My Projects</h2>
+
+          <p class="section-subtitle">Recent work I've completed</p>
+        </div>
+        <div class="projects-filter">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web Development</button>
+          <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+          <button class="filter-btn" data-filter="ui">UI/UX Design</button>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card" data-category="web">
+            <div class="project-image">
+              <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg" alt="E-commerce Website">
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Weekend Trip</h3>
+              <p class="project-description">Role: UI/UX Designing & Frontend Development
+                                            Designed a responsive travel-themed website layout.
+                                            Worked with HTML, CSS, Media Queries to ensure mobile-friendly design.</p>
+              <div class="project-tech">
+                <span class="tech-tag">Html</span>
+                <span class="tech-tag">Css</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="project-card" data-category="mobile">
+            <div class="project-image">
+              <img src="https://images.pexels.com/photos/193004/pexels-photo-193004.jpeg" alt="Fitness App">
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">SubUrban Diagnostics </h3>
+              <p class="project-description">Role: UI/UX Designing & Responsive Development
+                                               Created a responsive navbar, header.
+                                              Used HTML, CSS, JavaScript for dropdown menus, icons, and interactive sections.</p>
+              <div class="project-tech">
+                <span class="tech-tag">Html</span>
+                <span class="tech-tag">Css</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+             
+            </div>
+          </div>
+          
+          <div class="project-card" data-category="ui">
+            <div class="project-image">
+              <img src="https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg" alt="Dashboard UI">
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">SFA – SalesForce Application</h3>
+              <p class="project-description">Role: .NET Developer(Trainee)
+                                             Developed a SalesForce Application using C# and ASP.NETMVC.
+                                             Worked with SQL Server for database.</p>
+              <div class="project-tech">
+                <span class="tech-tag">C#</span>
+                <span class="tech-tag">.Net</span>
+                <span class="tech-tag">Sql</span>
+              </div>
+             
+            </div>
+          </div>
+          
+         
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">Let's discuss your project</p>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="info-details">
+                <h4>Location</h4>
+                <p>Seohar Bijnor(Utter Pradesh).</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="info-details">
+                <h4>Email</h4>
+                <p>vineetkumar72485@gmail.com</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="info-details">
+                <h4>Phone</h4>
+                <p>7248205059</p>
+              </div>
+            </div>
+            <div class="social-links">
+             <a href="https://github.com/Vineet936/My-Repo" class="social-link" target="_blank">
+  <i class="fab fa-github"></i>
+</a>
+
+<a href="https://www.linkedin.com/feed/?trk=registration-frontend" class="social-link" target="_blank">
+  <i class="fab fa-linkedin-in"></i>
+</a>
+
+<a href="https://x.com/VineetKuma98955" class="social-link" target="_blank">
+  <i class="fab fa-twitter"></i>
+</a>
+
+<a href="https://dribbble.com/yourusername" class="social-link" target="_blank">
+  <i class="fab fa-dribbble"></i>
+</a>
+
+            </div>
+          </div>
+          <div class="contact-form-container">
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+              </div>
+             
+            
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">vs</div>
+        <p class="copyright"> All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#" class="footer-link">Privacy Policy</a>
+          <a href="#" class="footer-link">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="/javascript/main.js" type="module"></script>
+  <script src="/javascript/navigation.js" type="module"></script>
+  <script src="/javascript/darkMode.js" type="module"></script>
+    <script src="/javascript/projects.js" type="module"></script>
+      <script src="/javascript/animations.js" type="module"></script>
+      <script src="/javascript/form.js" type="module"></script>
+
+
+      <script>
+        
+
+      document.getElementById('resumeForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    // Get file input and other form data
+    const resumeFile = document.getElementById('resume').files[0];
+    const name = document.getElementById('name').value;
+
+    if (resumeFile && name) {
+        // Create a FormData object to send the data
+        let formData = new FormData();
+        formData.append('resume', resumeFile);
+        formData.append('name', name);
+
+        // Make an AJAX request to upload the file
+        fetch('YOUR_BACKEND_URL', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log('Success:', data);
+            alert('Resume uploaded successfully!');
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('There was an error uploading your resume.');
+        });
+    } else {
+        alert('Please fill out all fields.');
+    }
+});
+      </script>
+</body>
+</html>

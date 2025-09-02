@@ -1,0 +1,64 @@
+.download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 17px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    font-family: 'Arial', sans-serif;
+     top: -90px;
+         position: relative;
+}
+
+.download-btn i {
+    position: relative;
+    /* Lifts the icon slightly */
+    font-size: 18px;
+}
+
+.download-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+}
+   
+   
+   
+    .container .hero-content .name{
+      color: white;
+      font-family: monospace;
+      text-wrap: nowrap;
+      overflow: hidden;
+      animation: typing 2s steps(20)
+       infinite alternate-reverse;
+    }
+
+  
+
+    @keyframes typing {
+  0% {
+    width: 0;
+    border-right: 2px solid white;
+  }
+  100% {
+    width: 75%;
+    border-right: 2px solid transparent;
+  }
+}
+
+.element {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  border-right: 2px solid black;
+  animation: typing 2s steps(20) infinite alternate-reverse;
+}
+.section-title{
+    color: ;
+}
+    
